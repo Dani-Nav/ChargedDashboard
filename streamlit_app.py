@@ -237,7 +237,7 @@ with col_dir:
 # Footer
 st.markdown("---")
 st.markdown("💡 **Dica:** Exporte seus dados regularmente para evitar perdas.")
-with open(f"{project_name}/README.md", "w") as f:
+#with open(f"{project_name}/README.md", "w") as f:
     f.write(readme_md)
 
 print("Projeto criado com sucesso!")
